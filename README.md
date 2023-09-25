@@ -67,27 +67,42 @@ HEX     | ``#RRGGBB``     | ``#0969DA``             | #0969DA               |
 RGB     | ``rgb(R,G,B)``  | ``rgb(9, 105, 218)``    | rgb(9, 105, 218)      |
 HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
 
+## Creating a table
+```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 ## Code Blocks
-### php
-  <?php
-      echo "Hello world!";
-  ?>
+### PHP
+```php
+<?php
+    echo "Hello world!";
+?>
+```
 
-### html
-  <html>
-      <title>Hello</title>
-      <body>
-          <p style='color:red'>Hello World</p>
-      </body>
-  </html>
+### HTML
+```html
+<html>
+    <title>Hello</title>
+    <body>
+        <p style='color:greed'>Hello World</p>
+    </body>
+</html>
+```
 
 
 ## Using emoji
-`@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br><br>
+`@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br>
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-<p style='color:red'>Hello World</p>
 
 ## Icons
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' background='#13df1c'>](https://github.com/suhag10)
