@@ -84,7 +84,7 @@ HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
 
 
 ## Using emoji
-`@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br>
+`@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br><br>
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
 <p style='color:red'>Hello World</p>
@@ -131,9 +131,6 @@ A footnote can also have multiple lines[^2].
 > Highlights information that users should take into account, even when skimming.
 
 > [!IMPORTANT]
-> Crucial information necessary for users to succeed.
-
-> [!SUCCESS]
 > Crucial information necessary for users to succeed.
 
 > [!WARNING]
