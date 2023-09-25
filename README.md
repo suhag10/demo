@@ -58,19 +58,44 @@ Text that is not a quote
 
 
 ## Supported color models
-`The background color is `#ffffff` for light mode and `#000000` for dark mode.`
+```The background color is `#ffffff` for light mode and `#000000` for dark mode.```
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
-Color	| Syntax	        | Example                   | Output                |
---------|-------------------|---------------------------|-----------------------|
-HEX     | ```#RRGGBB```     | ```#0969DA```             | `#0969DA`             |
-RGB     | ```rgb(R,G,B)```  | ```rgb(9, 105, 218)```    | `rgb(9, 105, 218)`    |
-HSL     | ```hsl(H,S,L)```  | ```hsl(212, 92%, 45%)```  | `hsl(212, 92%, 45%)`  |
+Color	| Syntax	      | Example                 | Output                |
+--------|-----------------|-------------------------|-----------------------|
+HEX     | ``#RRGGBB``     | ``#0969DA``             | #0969DA               |
+RGB     | ``rgb(R,G,B)``  | ``rgb(9, 105, 218)``    | rgb(9, 105, 218)      |
+HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
+
+
+## Code Blocks
+### php
+<pre>
+<?php
+    echo "Hello world!";
+?>
+</pre>
+
+### html
+<html>
+    <title>Hello</title>
+    <body>
+        <p>Hello World</p>
+    </body>
+</html>
 
 
 ## Using emoji
-`@octocat :+1: This PR looks great - it's ready to merge! :shipit:`
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+`@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br>
+@octocat :+1: <br>
+@octocat :+2: <br>
+@octocat :+3: <br>
+@octocat :+4: <br>
+@octocat :+5: <br>
+
+## Icons
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' style='background: red; color:green;'>](https://github.com/suhag10)
+
 
 ## Paragraphs
 You can create a new paragraph by leaving a blank line between lines of text.
