@@ -133,8 +133,13 @@ A footnote can also have multiple lines[^2].
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
 
+> [!SUCCESS]
+> Crucial information necessary for users to succeed.
+
 > [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
 ## Hiding content with comments
 `<!-- This content will not appear in the rendered Markdown -->`
+
+<br><br><br><br><br>
