@@ -58,7 +58,7 @@ Text that is not a quote
 
 
 ## Supported color models
-```The background color is `#ffffff` for light mode and `#000000` for dark mode.```
+```The background color is `#ffffff` for light mode and `#000000` for dark mode.``` <br>
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 Color	| Syntax	      | Example                 | Output                |
@@ -88,6 +88,14 @@ HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
 ?>
 ```
 
+````
+```php
+<?php
+    echo "Hello world!";
+?>
+```
+````
+
 ### HTML
 ```html
 <html>
@@ -98,6 +106,17 @@ HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
 </html>
 ```
 
+````
+```html
+<html>
+    <title>Hello</title>
+    <body>
+        <p style='color:greed'>Hello World</p>
+    </body>
+</html>
+```
+````
+
 
 ## Using emoji
 `@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br>
@@ -105,7 +124,9 @@ HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
 
 
 ## Icons
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' background='#13df1c'>](https://github.com/suhag10)
+```[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/suhag10)
+```
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/suhag10)
 
 
 ## Paragraphs
@@ -127,8 +148,8 @@ Here is a simple footnote[^1].
 A footnote can also have multiple lines[^2].
 
 [^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces. 
+    This is a second line.
 
 
 ## Alerts
