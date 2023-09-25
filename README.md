@@ -70,31 +70,27 @@ HSL     | ``hsl(H,S,L)``  | ``hsl(212, 92%, 45%)``  | hsl(212, 92%, 45%)    |
 
 ## Code Blocks
 ### php
-<pre>
-<?php
-    echo "Hello world!";
-?>
-</pre>
+  <?php
+      echo "Hello world!";
+  ?>
 
 ### html
-<html>
-    <title>Hello</title>
-    <body>
-        <p>Hello World</p>
-    </body>
-</html>
+  <html>
+      <title>Hello</title>
+      <body>
+          <p style='color:red'>Hello World</p>
+      </body>
+  </html>
 
 
 ## Using emoji
 `@octocat :+1: This PR looks great - it's ready to merge! :shipit:` <br>
-@octocat :+1: <br>
-@octocat :+2: <br>
-@octocat :+3: <br>
-@octocat :+4: <br>
-@octocat :+5: <br>
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+<p style='color:red'>Hello World</p>
 
 ## Icons
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' style='background: red; color:green;'>](https://github.com/suhag10)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' background='#13df1c'>](https://github.com/suhag10)
 
 
 ## Paragraphs
